@@ -1,0 +1,1004 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #212722;
+    color: white;
+}
+
+.work-together{
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.work-together:hover{
+    background-color: #212722;
+    color: #ffc107;
+}
+
+.navbar-class{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navlinks li a{
+   text-decoration: none;
+   color: white;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    height: 120vh;
+    padding-top: 100px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    font-family: "DM Serif Display", serif;
+    width: 700px;
+}
+
+.hero-content p{
+    font-family: "DM Serif Display", serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.hero-content h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-image img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.home-about{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 80vh;
+}
+
+.home-about-headings h5{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.home-about-headings h1{
+    font-size: 50px;
+    font-family: "DM Serif Display", sans-serif;
+    padding-bottom: 20px;
+}
+
+.home-about-paragraph p{
+    width: 700px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.about-btn{
+    border: 1px solid white;
+    font-family: "Roboto Flex", sans-serif; 
+    border-radius: 2px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.about-btn:hover{
+    background-color: white;
+    color: #212722;
+}
+
+.home-service{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 20px 20px 20px;
+    background-color: white;
+}
+
+.home-service *{
+    background-color: white;
+    color: #212722;
+}
+
+.home-service-headings h5{
+    color: #ffc107;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.home-service-headings h1{
+    font-size: 50px;
+    font-family: "DM Serif Display", sans-serif;
+    padding-bottom: 20px;
+}
+
+.home-about-service p{
+    width: 700px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.service-btn{
+    border: 1px solid #212722;
+    font-family: "Roboto Flex", sans-serif; 
+    border-radius: 2px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.service-btn:hover{
+    background-color: #212722;
+    color: white;
+}
+
+.service-list{
+    margin-bottom: 40px;
+}
+
+.service-list span{
+    color: #ffc107;
+}
+
+.service-list h5{
+    color: #212722;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.home-work{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.home-work h1{
+    width: 700px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.home-work p{
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 16px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-work button{
+    padding: 16px 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.footer *{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-about,
+.footer-site-links,
+.footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-about h3,
+.footer-site-links h3,
+.footer-social h3 {
+    margin-bottom: 10px;
+}
+
+.link-list,
+.social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li,
+.social-list li {
+    margin: 5px 0;
+}
+
+.link-list a,
+.social-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-list a:hover,
+.social-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-content h3{
+    color: #ffc107;
+}
+
+/* ABOUT PAGE CSS */
+
+body{background-color: #212722;}
+
+.about-container{
+    background-color: #212722;
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.about-heading h4{
+    color: #ffc107;
+    font-size: 25px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.about-heading h1{
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 80px;
+}
+
+.about-hero-container h1{
+    font-size: 60px;
+    width: 500px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.about-hero-container p{
+    width: 600px;
+    font-size: 20px;
+}
+
+.about-hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "DM Serif Display",sans-serif;
+    margin-bottom: 150px;
+}
+
+.about-img img{
+    width: 500px;
+    border-radius: 4px;
+}
+
+.about-img p{
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.about-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+.soft-list span{
+    color: #ffc107;
+}
+
+.soft-list h5{
+    color: #212722;
+    font-size: 40px;
+}
+
+.soft-list p{
+    color: #212722;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.about-soft-skills *{
+    background-color: white;
+    margin: 0px;
+}
+
+.about-soft-skills h1{
+    color: #212722;
+}
+
+.contact-info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.contact-info h2{
+    color: #212722;
+    font-size: 60px;
+    font-family: "DM Serif Display",sans-serif;
+}
+
+.contact-info p{
+    font-size: 20px;
+    color: #212722;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #212722;
+    transition: 0.3s ease;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+}
+
+.resume-btn{
+    border: none;
+    background-color: #ffc107;
+    color: #212722;
+    font-family: "Roboto Flex", sans-serif; 
+    border-radius: 2px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover{
+    border: 1px #ffc107 solid;
+    background-color: #212722;
+    color: #ffc107;
+}
+
+
+/* CHAT GPT RESPONSIVE */
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+    .home-work p {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .home-about-paragraph p,
+    .home-service {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .hero-content p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-class {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-about,
+    .home-service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1 {
+        text-align: center;
+    }
+
+    .home-about-paragraph p,
+    .home-about-service p {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content p {
+        font-size: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 16px;
+    }
+
+    .hero-content,
+    .home-about-paragraph p,
+    .home-about-service p,
+    .home-work h1 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-image img {
+        width: 80%;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1,
+    .home-work h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content p {
+        font-size: 25px;
+    }
+
+    .hero-content h3 {
+        font-size: 14px;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1,
+    .home-work h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+    .home-work p {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .home-about-paragraph p,
+    .home-service {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .hero-content p {
+        font-size: 50px;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1 {
+        font-size: 40px;
+    }
+
+    .home-about-headings h5,
+    .home-service-headings h5 {
+        font-size: 24px;
+    }
+
+    .home-about-paragraph p,
+    .home-about-service p {
+        font-size: 18px;
+    }
+
+    .hero-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-class {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-about,
+    .home-service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .home-about-paragraph p,
+    .home-about-service p {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-content p {
+        font-size: 40px;
+    }
+
+    .hero-content h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content p {
+        font-size: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 12px;
+    }
+
+    .hero-content,
+    .home-about-paragraph p,
+    .home-about-service p,
+    .home-work h1 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-image img {
+        width: 80%;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1,
+    .home-work h1 {
+        font-size: 28px;
+    }
+
+    .home-about-headings h5,
+    .home-service-headings h5 {
+        font-size: 20px;
+    }
+
+    .home-about-paragraph p,
+    .home-about-service p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content p {
+        font-size: 25px;
+    }
+
+    .hero-content h3 {
+        font-size: 12px;
+    }
+
+    .home-about-headings h1,
+    .home-service-headings h1,
+    .home-work h1 {
+        font-size: 24px;
+    }
+
+    .home-about-headings h5,
+    .home-service-headings h5 {
+        font-size: 18px;
+    }
+
+    .home-about-paragraph p,
+    .home-about-service p {
+        font-size: 12px;
+    }
+}
+
+
+
+/* CHAT GPT ABOUT.HTML RESPONSIVE CSS */
+
+/* General Responsive Styles */
+body {
+    font-size: 1rem;
+}
+
+.header .navlinks li a {
+    font-size: 1rem;
+}
+
+/* About Section */
+.about-container .about-heading h1 {
+    font-size: 2.5rem;
+}
+
+.about-hero-container h1 {
+    font-size: 2rem;
+}
+
+.about-hero-container p {
+    font-size: 1rem;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-img p {
+    font-size: 1rem;
+}
+
+.home-service.about-soft-skills h1 {
+    font-size: 2rem;
+}
+
+.soft-skills .soft-list h5 {
+    font-size: 1.25rem;
+}
+
+.soft-skills .soft-list p {
+    font-size: 1rem;
+}
+
+.home-work h1 {
+    font-size: 1.75rem;
+}
+
+.home-work p {
+    font-size: 1rem;
+}
+
+/* Footer */
+.footer-content h3 {
+    font-size: 1.25rem;
+}
+
+.footer-content p, .footer-content ul li a {
+    font-size: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .about-container .about-heading h1 {
+        font-size: 2rem;
+    }
+
+    .about-hero-container h1 {
+        font-size: 1.75rem;
+    }
+
+    .about-hero-container p {
+        font-size: 0.9rem;
+    }
+
+    .home-service.about-soft-skills h1 {
+        font-size: 1.75rem;
+    }
+
+    .soft-skills .soft-list h5 {
+        font-size: 1.15rem;
+    }
+
+    .soft-skills .soft-list p {
+        font-size: 0.9rem;
+    }
+
+    .home-work h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-work p {
+        font-size: 0.9rem;
+    }
+
+    .footer-content h3 {
+        font-size: 1.15rem;
+    }
+
+    .footer-content p, .footer-content ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .about-container .about-heading h1 {
+        font-size: 1.75rem;
+    }
+
+    .about-hero-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-hero-container p {
+        font-size: 0.8rem;
+    }
+
+    .home-service.about-soft-skills h1 {
+        font-size: 1.5rem;
+    }
+
+    .soft-skills .soft-list h5 {
+        font-size: 1rem;
+    }
+
+    .soft-skills .soft-list p {
+        font-size: 0.8rem;
+    }
+
+    .home-work h1 {
+        font-size: 1.25rem;
+    }
+
+    .home-work p {
+        font-size: 0.8rem;
+    }
+
+    .footer-content h3 {
+        font-size: 1rem;
+    }
+
+    .footer-content p, .footer-content ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* About Image and Text */
+.about-img {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.about-img img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.about-img p {
+    font-size: 1rem;
+    max-width: 600px;
+    padding: 0 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about-img {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        max-width: 80%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .about-img p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-img img {
+        max-width: 70%;
+    }
+
+    .about-img p {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* SERVICES.HTML CHAT GPT RESPONSIVE */
+
+.about-container, .about-hero-container, .home-service, .home-work {
+    padding: 20px; /* Adjust padding for better spacing */
+}
+
+.home-service-headings h1 {
+    font-size: 2.5rem; /* Adjust heading size */
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column; /* Stack services vertically on smaller screens */
+}
+
+.service-list {
+    margin-bottom: 20px; /* Space between services */
+}
+
+.service-list h5 {
+    font-size: 1.5rem; /* Adjust service title size */
+}
+
+.service-list p {
+    font-size: 1rem; /* Adjust service description size */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home-service-headings h1 {
+        font-size: 2rem; /* Smaller heading size on mobile */
+    }
+    .service-list h5 {
+        font-size: 1.25rem; /* Smaller service title size on mobile */
+    }
+    .service-list p {
+        font-size: 0.9rem; /* Smaller service description size on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .about-container, .about-hero-container, .home-work {
+        padding: 15px; /* Less padding on extra small screens */
+    }
+    .home-work h1 {
+        font-size: 1.5rem; /* Smaller size for the call to action on mobile */
+    }
+    .home-work p {
+        font-size: 0.85rem; /* Smaller description text on mobile */
+    }
+}
+
+
+
+/* CONTACT.HTML CHAT GPT RESPONSIVE */
+
+/* General styles for the contact page */
+.about-hero-container {
+    padding: 50px 15px;
+}
+
+.home-service {
+    padding: 50px 15px;
+}
+
+.home-work {
+    padding: 50px 15px;
+}
+
+.service-list h5 {
+    transition: color 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about-hero-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-hero-container p {
+        font-size: 1rem;
+    }
+
+    .home-service-headings h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-work h1 {
+        font-size: 1.8rem;
+    }
+
+    .home-work p {
+        font-size: 0.9rem;
+    }
+
+    .service-list h5 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-hero-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-hero-container p,
+    .home-work p {
+        font-size: 0.85rem;
+    }
+
+    .home-service-headings h5 {
+        font-size: 1.2rem;
+    }
+
+    .service-list h5 {
+        font-size: 1rem;
+    }
+}
